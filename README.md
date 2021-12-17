@@ -28,3 +28,9 @@ The RSA code is in the key.key file
 ## How to decrypt
 1. Open the 'decrypt.py' file, and change to the desired destinations and names etc.
 2. Run the file and now you encrypted file is decrypted
+
+
+#The difference between V.1.0 and V.1.2?
+The difference between these to version is that the older version you have to manually create an rsa code, but the newer version does it automatically.
+
+//spxrtzy
