@@ -10,13 +10,17 @@ file.close
 
 time.sleep(2)
 
+
+#Open the file and read the info that is stored
 file = open("key.key", "rb")
 key = file.read()
 file.close()
 
+#With th e code that is in the file key.key
 with open("test.txt", "rb") as f:
     data = f.read()
 
+#Use it to encrypt the data
 fernet = Fernet(key)
 encrypted = fernet.encrypt(data)
 
