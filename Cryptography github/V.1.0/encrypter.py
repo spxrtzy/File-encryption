@@ -1,6 +1,6 @@
 from cryptography.fernet import Fernet
 
-file = open("key.key", "rb")
+file = open("token.key", "rb")
 key = file.read()
 file.close()
 
