@@ -1,5 +1,4 @@
 # Encrypter with RSA Key
-
 This project was made by spxrtzy 1.0
 
 ## How to Use?
@@ -9,7 +8,7 @@ This project was made by spxrtzy 1.0
 2. Open the file named 'encrypter.py' and change files and directory's etc. and run
 3. Now you have an encrypted file
 
-The RSA code is in the key.key file
+The RSA code is in the token.key file
 
 ## How to decrypt
 1. Open the 'decrypt.py' file, and change to the desired destinations and names etc.
@@ -23,7 +22,7 @@ The RSA code is in the key.key file
 1. Open the file named 'encrypter.py' and change files and directory's etc. and run
 2. Now you have an encrypted file
 
-The RSA code is in the key.key file
+The RSA code is in the token.key file
 
 ## How to decrypt
 1. Open the 'decrypt.py' file, and change to the desired destinations and names etc.
