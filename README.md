@@ -1,10 +1,10 @@
-## For V.1.0
-
 # Encrypter with RSA Key
 
 This project was made by spxrtzy 1.0
 
 ## How to Use?
+
+## For V.1.0
 1. First you need to run the 'RSAkeygenerator.py' file to create an RSA Code
 2. Open the file named 'encrypter.py' and change files and directory's etc. and run
 3. Now you have an encrypted file
