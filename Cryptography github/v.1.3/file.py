@@ -21,7 +21,7 @@ MADE BY SPXRTZY
 
 
 def fileEncrypt():
-    foldername = input("Enter file folder destination(Leave blank for current): ") or '.'
+    foldername = input("Enter file folder destination(Lea ve blank for current): ") or '.'
     filename = input("Enter File name: ")
 
     print("Creating encryption key")
@@ -47,13 +47,15 @@ def fileEncrypt():
         f.write(encrypted)
     
     print('\x1b[6;30;42m' + 'Success! Your file has been Encrypted' + '\x1b[0m')
+    print("You may now delete the original file that isn't encrypted")
 
 def fileDecrypt():
     foldername = input("Enter file folder destination(Leave blank for current): ") or '.'
     filename = input("Enter file name: ")
     newfilename = input("New desired name for decrypted file (with ext.): ")
+    keyfilename = input("Enter .key file name: ")
 
-    file = open(f"{foldername}/key.key", "rb")
+    file = open(f"{foldername}/{keyfilename}", "rb")
     key = file.read()
     file.close()
 
@@ -82,7 +84,17 @@ instructions = """
 This Script was made by spxrtzy
 What it does is it encrypts and decrypts your files of choice.
 
-The script uses RSA encryption from cryptography.fernet
+NOTE: THE KEY TO YOUR FILES THAT WILL BE USED TO DECRYPT IT IS LOCATED IN THE "key.key" FILE BY DEAFULT
+IF YOU HAVE ANY ISSUES DON'T HESITATE TO WRITE TO ME(twitter: @lzmogus)
+
+Things you will need for encryption:
+There is not much really you need for the encryption part, just keep in mind that the .key file will be created in the same folder as the encrypted file.
+
+Things you will need for decryption:
+
+1. You need to have both the .key file and the encrypted file in the same folder or else it won't work
+2. Make sure that the key is correct to the file
+3. Make sure that the .key file is not empty.
 """
 
 
