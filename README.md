@@ -32,4 +32,5 @@ The RSA code is in the token.key file
 # The difference between V.1.0 and V.1.2?
 The difference between these to version is that the older version you have to manually create an rsa code, but the newer version does it automatically.
 
+# Note: There is now a V.1.3 Wich is pretty much straight forward(it will probably end up being the final version)
 //spxrtzy
